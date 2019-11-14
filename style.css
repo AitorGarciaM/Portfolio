@@ -1,0 +1,99 @@
+.bold
+{
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #994d00;
+}
+
+body
+{
+	background-color: #994d00;
+	background: url("background.jpg") no-repeat fixed;
+	background-size: 2250px 1500px;
+}
+
+#section1
+{
+	padding-top: 500px;
+	padding-bottom: 500px
+}
+
+#section2
+{
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 250px
+}
+
+#section3
+{
+	background-color: #343a40;
+	padding-top: 50px;
+	padding-bottom: 250px
+}
+
+#section4
+{
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 250px
+}
+
+.typewriter 
+{
+	color:#fff;
+	text-decoration: none; 
+	font-variant: small-caps;
+	/*margin-left: 42%;*/
+}
+
+.dotsName
+{
+	padding-left: 2em;
+}
+
+.dotsAge
+{
+	padding-left: 4.5em;
+}
+
+
+.dotsAddress
+{
+	padding-left: 2.75em;
+}
+
+.dotsEmail
+{
+	padding-left: 4em;
+}
+
+.dotsPhone
+{
+	padding-left: 3.75em;
+}
+
+.Header
+{
+	color: #994d00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
