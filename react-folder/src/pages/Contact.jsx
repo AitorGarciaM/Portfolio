@@ -17,6 +17,7 @@ export default function Contact() {
             <ul className={styles.contact}>
                 <li className={styles.contact}>
                     <FontAwesomeIcon icon={faBluesky} size='lg' />
+                    <a href="https://bsky.app/profile/aitordev.bsky.social">bsky.app/profile/aitordev.bsky.social</a>
                 </li>
                 <li className={styles.contact}>
                     <FontAwesomeIcon icon={faLinkedin} size='lg' />

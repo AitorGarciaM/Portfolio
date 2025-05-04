@@ -28,7 +28,7 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="photo">
-                        <img className="avatar" src="/img/photo2.png" alt="A photography of Aitor Garcia Miñana" />
+                        <img className="avatar" src="/Portfolio/img/photo2.png" alt="A photography of Aitor Garcia Miñana" />
                     </div>
                 </div>
                 <div style={{clear:"both"}}>
