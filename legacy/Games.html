@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Aitor Garcia Miñana</title>
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="nav-bar" >
+                <a href="index.html" class="nav-link">ABOUT ME</a>
+                <a href="Games.html" class="nav-link route-link-active">GAMES</a>
+                <a href="Resume.html" class="nav-link">RESUME</a>
+                <a href="Contact.html" class="nav-link">CONTACT</a>
+            </div>
+        </div>
+        <div class="main">
+            <div>
+                <h1>Games & Demos</h1>
+                <div style="margin-bottom: 30px;">Here are some games I've created, either to be released, or during game jams, or to showcase my skills using Unity or Unreal Engine 5.</div>
+                <div>
+                    <div class="projects-list">
+                        <div id="FPElement" class="project-item high">
+                            <div class="project-item-image" style="background-image: url(img/Flappy\ pig.gif);"></div>
+                            <div class="title-bar" style="background-color: rgba(255, 102, 153, 0.867);">
+                                <i class="fa fa-android" style="color: #ffffff; margin-left: 10px; display: inline;"></i>
+                                <div class="title-text" style="display: inline; text-align: center; margin-left: 3.5em;">Flappy Pig</div>
+                                <i class="fa-brands fa-unity" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div id="AstralElement" class="project-item wide">
+                            <div class="project-item-image" style="background-image: url(img/AstarothLoop.gif);"></div>
+                            <div class="title-bar" style="background-color: rgba(190, 111, 39, 0.867);">
+                                <i class="fa fa-windows" style="color: #ffffff; margin-left: 10px; display: inline;"></i>
+                                <div class="title-text" style="display: inline; text-align: center; margin-left: 3.5em;">Astaroth </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <h1 style="padding-top: 20px;">Prototypes</h1>
+                    <div style="margin-bottom: 30px;">And here you can find a few protopypes to test my skills or learn new ones.</div>
+                    <div class="projects-list">
+                        <div id="TPSElement" class = "project-item wide">
+                            <div class="project-item-image" style="background-image: url(img/TPS.PNG);"></div>
+                            <div class="title-bar" style="background-color: rgba(48, 119, 212, 0.867);">
+                                <i class="fa fa-windows" style="color: #ffffff; margin-left: 10px; display: inline;"></i>
+                                <div class="title-text" style="display: inline; text-align: center; margin-left: 3.5em;">Third person shooter</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 30px;">And <a href="https://github.com/AitorGarciaM?tab=repositories">Here</a> you could find some other projects.</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="right">
+                Reach me at my
+                <a class="text" href="mailto:aitor.garciamin@gmail.com">mail</a>
+                or
+                <a class="text" href="">through here</a></div>
+        </div>
+    
+         <!-- Flappy pig Modal-->
+    <div id="FlappyPigModal" class ="modal">
+        <div class="modal-content">
+            <span class = "close">&times;</span>
+            <div class="modal-header" style="background-color: rgb(255, 102, 153);">
+                Flappy Pig
+            </div>
+            <div class="modal-body">
+                <div>
+                    Released in 2022 on itch.io, Flappy pig it's a Flappy bird clone made in Unity for Android devices.
+                </div>
+                <div>
+                    <img class="modal-img-principal" src="img/Flappy pig.gif">
+                    <div class="center">
+                        <a href="https://aitor-garcia.itch.io/flappy-pig">
+                            <img class="brand-logo" src="img/itch_logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    Main Features:
+                    <br>
+                    · High score table.
+                </div>
+                <div class="center">
+                    <img src="img/FlappyPig_Menu.png" class="screenshot" style="width: 8%;">
+                    <img src="img/FlappyPig_Gameplay.png" class="screenshot" style="width: 8%;">                  
+                    <img src="img/FlappyPig_HighScore.png" class="screenshot" style="width: 8%;">
+                </div>
+            </div>
+                
+            <div class="modal-footer" style="background-color: rgb(255, 102, 153);">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Astaroth Modal -->
+    <div id="AstralModal" class ="modal">
+        <div class="modal-content">
+            <span class = "close">&times;</span>
+            <div class="modal-header">
+                Astaroth
+            </div>
+            <div class="modal-body">
+                <div>
+                    Released in 2024 on itch.io, Astaroth is an action platfromer 2D made with Unity.
+                </div>
+                <div>
+                    <img class="modal-img-principal" src="img/Astaroth_screenshot(4).png" style="width: 30%; height: 30%;">
+                    <div class="center">
+                        <a href="https://aitor-garcia.itch.io/astaroth">
+                            <img class="brand-logo" src="img/itch_logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    Main Features:
+                    <br>
+                    · Data Persistance between scenes.
+                    <br>
+                    · Enemy AI
+                </div>
+                <div class="center">
+                    <img src="img/Astaroth_screenshot(1).png" class="screenshot" style="width: 15%;">
+                    <img src="img/Astaroth_screenshot(2).png" class="screenshot" style="width: 15%;">                  
+                    <img src="img/Astaroth_screenshot(3).png" class="screenshot" style="width: 15%;"> 
+                    <img src="img/Astaroth_screenshot(5).png" class="screenshot" style="width: 15%;">
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+
+    <!--TPS Modal-->
+    <div id="TPSModal" class ="modal">
+        <div class="modal-content">
+            <span class = "close">&times;</span>
+            <div class="modal-header" style="background-color: rgb(42, 119, 212);">
+                Third person shooter
+            </div>
+            <div class="modal-body">
+                <div>
+                    This is a prototype of a third person shooter in 3d made with Unreal Engine 5.
+                </div>
+                <div>
+                    <img class="modal-img-principal" src="img/TPS.PNG" style="width: 60%; height: 60%;">
+                    <div class="center">
+                        <a href="https://github.com/AitorGarciaM/ThirdPersonShooter">
+                            <img class="brand-logo" src="img/githubLogo.png">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    Main Features:
+                    <br>
+                    · Progremed in C++.
+                </div>
+            </div>
+            <div class="modal-footer" style="background-color: rgb(42, 119, 212);">
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</body>
+
+<script src="js/modal.js"></script>
+
+</html>

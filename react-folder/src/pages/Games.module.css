@@ -1,0 +1,24 @@
+
+@media only screen and (min-width:620px) {
+   .projectsList {
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:20px;
+        grid-auto-rows: minmax(250px,auto);
+    }
+
+   .project-item {
+        margin:0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .wide {
+        grid-column-end: span 2;
+    }
+
+    .height {
+        grid-row-end: span 2;
+    }   
+}

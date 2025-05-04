@@ -1,0 +1,83 @@
+{
+    "games": [
+        {
+            "imgUrl": "/img/Flappy-pig.gif",
+            "title": "Flappy pig",
+            "coverImage": "img/flappy-pig.png",
+            "color": "rgba(255, 102, 153, 0.867)",
+            "description": "Developed a Flappy Bird-style mobile game clone using Unity. Implemented core mechanics such as procedural obstacle generation, scoring system, and collision logic. Released on itch.io as a learning project to practice game loops and mobile-friendly UI.",
+            "features": [
+                "Procedural obstacle generation.",
+                "Scoring.",
+                "UI for touch devices.",
+                "Mobile game."
+            ],
+            "storeIcon": "itchio",
+            "storeLink": "https://aitor-garcia.itch.io/flappy-pig",
+            "platformIcons": ["android"],
+            "engineIcon": "unity",
+            "size": "heigh"
+        },
+        {
+            "imgUrl": "/img/AstarothLoop.gif",
+            "title": "Astaroth",
+            "coverImage": "/img/AstarothLoop.gif",
+            "color": "rgba(190, 111, 39, 0.867)",
+            "description": "Designed and developed a 2D action-platformer in Unity featuring real-time combat and passive abilities through collectible trinkets. Built a custom gravity system to achieve more cartoon-like, responsive movement. Implemented enemy AI, combo-based attacks, and level transitions. Focused on responsive controls and a modular character upgrade system.",
+            "features": [
+                "action-platformer.",
+                "Custom gravity.",
+                "passive abilities via trinkets.",
+                "Enemi AI.",
+                "Boss fight."
+            ],
+            "storeIcon": "itchio",
+            "storeLink": "https://aitor-garcia.itch.io/astaroth",
+            "platformIcons": ["windows"],
+            "engineIcon": "unity",
+            "size": "wide"
+        },
+        {
+            "imgUrl": "/img/AGameAboutDragons.jpg",
+            "title": "A Game About Dragons",
+            "coverImage": "/img/AGameAboutDragons.jpg",
+            "color": "rgba(139, 92, 136, 0.867)",
+            "description": "Developed during a two-week game jam alongside 2 artists, a narrative designer, and a sound designer. Served as the main programmer, implementing drag-and-drop mechanics, room transitions, and a room-based scene system to optimize performance. Worked with a multidisciplinary team using Git for version control and agile task management.",
+            "features": [
+                "Drag-and-drop interactions.",
+                "Room transitions.",
+                "Room-based scene system.",
+                "Sounds implemented with Fmod.",
+                "Main programmer.",
+                "Git for version control and agile task management."
+            ],
+            "storeIcon": "itchio",
+            "storeLink": "https://aitor-garcia.itch.io/a-game-about-dragons",
+            "platformIcons": ["windows"],
+            "engineIcon": "unity",
+            "size": "wide"
+        }
+    ],
+    "prototypes": [
+        {
+            "imgUrl": "/img/TPS.PNG",
+            "title": "Third Person Shooter Prototype",
+            "coverImage": "/img/TPS.PNG",
+            "color": "rgba(48, 119, 212,0.867)",
+            "description": "A prototype of a third person shooter made with Unreal Engine 5 using C++ instead Blueprints.",
+            "features": [
+                "Player movement",
+                "Simple AI behaviour",
+                "Use of Line trace for detect shoots collisions"
+            ],
+            "storeIcon": "github",
+            "storeLink": "https://github.com/AitorGarciaM/ThirdPersonShooter",
+            "platformIcons": ["windows"],
+            "engineIcon": "unreal",
+            "size": "wide"
+        }
+    ],
+    "apps": [
+
+    ]
+}

@@ -1,0 +1,73 @@
+.paragraph {
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+a.text {
+    margin-left: 0.16em; 
+    margin-right: 0.16em;
+    text-transform: lowercase;
+}
+
+a:hover
+{
+    color: #B6D7A8;
+}
+
+.download-link{
+    float:left;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width:620px){
+    .paragraph {
+        float:left;
+    }
+    .photo {
+        float: left;
+        padding: 10px;
+        padding-left: 80px;
+    }
+
+}
+
+i {
+    margin-right: 10px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 2em;
+    color :#B6D7A8;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1.6em;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 1.3em;
+    font-style: italic;
+}
