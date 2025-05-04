@@ -1,0 +1,10 @@
+ul.contact {
+    list-style: none;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+}
+
+li.contact {
+    line-height: 2em;
+    font-size: 1.4;
+}
