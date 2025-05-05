@@ -21,7 +21,7 @@ function App() {
         <section className='main'>
           {/*define web routes.*/}
           <Routes>
-            <Route path='/Portfolio/' element={<Home />} />
+            <Route path='/Portfolio/about_me' element={<Home />} />
             <Route path='/Portfolio/games' element={<Games />} />
             <Route path='/Portfolio/resume' element={<Resume />} />
             <Route path='/Portfolio/contact' element={<Contact />} />
