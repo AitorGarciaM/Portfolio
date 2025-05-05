@@ -1,7 +1,7 @@
 {
     "games": [
         {
-            "imgUrl": "/img/Flappy-pig.gif",
+            "imgUrl": "img/Flappy-pig.gif",
             "title": "Flappy pig",
             "coverImage": "img/flappy-pig.png",
             "color": "rgba(255, 102, 153, 0.867)",
@@ -19,7 +19,7 @@
             "size": "heigh"
         },
         {
-            "imgUrl": "/img/AstarothLoop.gif",
+            "imgUrl": "img/AstarothLoop.gif",
             "title": "Astaroth",
             "coverImage": "/img/AstarothLoop.gif",
             "color": "rgba(190, 111, 39, 0.867)",
@@ -38,7 +38,7 @@
             "size": "wide"
         },
         {
-            "imgUrl": "/img/AGameAboutDragons.jpg",
+            "imgUrl": "img/AGameAboutDragons.jpg",
             "title": "A Game About Dragons",
             "coverImage": "/img/AGameAboutDragons.jpg",
             "color": "rgba(139, 92, 136, 0.867)",
@@ -60,7 +60,7 @@
     ],
     "prototypes": [
         {
-            "imgUrl": "/img/TPS.PNG",
+            "imgUrl": "img/TPS.PNG",
             "title": "Third Person Shooter Prototype",
             "coverImage": "/img/TPS.PNG",
             "color": "rgba(48, 119, 212,0.867)",

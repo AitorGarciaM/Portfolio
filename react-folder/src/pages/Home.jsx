@@ -17,7 +17,7 @@ export default function Home(){
                 <p>
                     I’m passionate about crafting high-quality interactive experiences, and I enjoy collaborating with <strong>multidisciplinary teams</strong> while applying <strong>clean, scalable, and performance-oriented code practices</strong>.
                 </p>
-                <p>Over the years, I’ve worked on a variety of <Link to='/games' className={styles.text}>game projects</Link>—some released, some experimental, and others created to push my skills further.</p>
+                <p>Over the years, I’ve worked on a variety of <Link to='/Portfolio/games' className={styles.text}>game projects</Link>—some released, some experimental, and others created to push my skills further.</p>
                 <p>
                     Feel free to reach out to me at
                     <Link to='mailto:aitor.garciamin@gmail.com' className={styles.text}> aitor.garciamin@gmail.com </Link>
@@ -27,7 +27,7 @@ export default function Home(){
                 </p>
             </div>
             <div className={styles.photo}>
-                <img className="avatar" src="/img/Avatar.png" alt="Avatar of Aitor Garcia Miñana" />
+                <img className="avatar" src="/Portfolio/img/Avatar.png" alt="Avatar of Aitor Garcia Miñana" />
             </div>
         </div>
         

@@ -26,7 +26,7 @@ export default function Project({id, imgUrl, title, color, platfomrIcons = [], e
                     }
                     <div className={styles.titleText}>{title}</div>
                     {
-                        engineIcon === "/img/unreal.svg" ? (<img src={engineIcon} alt="Unreal Engine logo" style={{width: '1.5em', color: 'white'}} />) : <FontAwesomeIcon icon={engineIcon} className={styles.engineIcon} />
+                        engineIcon === "img/unreal.svg" ? (<img src={engineIcon} alt="Unreal Engine logo" style={{width: '1.5em', color: 'white'}} />) : <FontAwesomeIcon icon={engineIcon} className={styles.engineIcon} />
                     }                    
                 </div>
             </div>
