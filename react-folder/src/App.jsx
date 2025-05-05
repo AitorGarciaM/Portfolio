@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router'
+import {HashRouter as Router, Routes, Route} from 'react-router'
 
 import './css/app.css'
 
@@ -14,8 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-
+      <Router>
         <Navbar />
 
         <section className='main'>
@@ -28,7 +27,7 @@ function App() {
           </Routes>
         </section>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </>
   )
 }
